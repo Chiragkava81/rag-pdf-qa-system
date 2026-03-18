@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chatbot</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+<h2>Upload Document</h2>
+
+<form action="/process_pdf" method="POST" enctype="multipart/form-data">
+<input type="file" name="pdf_file" accept=".pdf" required>
+<button type="submit">Upload PDF</button>
+</form>
+
+<p class="error">{{ error }}</p>
+
+</div>
+
+</body>
+</html>

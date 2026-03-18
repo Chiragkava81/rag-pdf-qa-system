@@ -1,0 +1,59 @@
+# 🔹 Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🔹 Virtual Environment
+venv/
+env/
+.venv/
+
+# 🔹 Environment variables (VERY IMPORTANT)
+.env
+
+# 🔹 Database files
+*.sqlite3
+db.sqlite3
+
+# 🔹 Logs
+*.log
+
+# 🔹 VS Code / IDE files
+.vscode/
+.idea/
+
+# 🔹 OS files
+.DS_Store
+Thumbs.db
+
+# 🔹 Flask specific
+instance/
+.webassets-cache
+
+# 🔹 Django specific
+staticfiles/
+media/
+
+# 🔹 AI / ML / RAG related (important for your project)
+*.pdf
+*.csv
+*.json
+*.pkl
+*.joblib
+*.h5
+
+# 🔹 Temporary files
+*.tmp
+*.bak
+
+# 🔹 Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 🔹 Build files
+dist/
+build/
+*.egg-info/
+
+# 🔹 Git itself
+.git/
